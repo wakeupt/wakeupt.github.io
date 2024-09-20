@@ -1,0 +1,105 @@
+/* Definições Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #50df87;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Estilo do Título Principal */
+  h1 {
+    font-size: 2.5em;
+    color: #0f724c;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do Subtítulo */
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  /* Estilo da Navbar */
+  ul.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  ul.navbar li {
+    margin: 0 15px;
+  }
+  
+  ul.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4a90e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #357abd;
+  }
+  
+  /* Estilo para Links */
+  a {
+    text-decoration: none;
+    color: #4a90e2;
+  }
+  
+  a:hover {
+    color: #357abd;
+    text-decoration: underline;
+  }
+  
+  /* Estilo Responsivo */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    h3 {
+      font-size: 1.1em;
+    }
+  
+    ul.navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    ul.navbar li {
+      margin: 10px 0;
+    }
+  }
+  
